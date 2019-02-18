@@ -7,6 +7,7 @@ import fastClick from 'fastclick'
 
 import './assets/styles/reset.css'// 重置样式
 import './assets/styles/border.css'// 1px边框解决方案
+import './assets/styles/iconfont/iconfont.css' // 引入图标库
 
 Vue.config.productionTip = false
 fastClick.attach(document.body) // 移动点击延迟
