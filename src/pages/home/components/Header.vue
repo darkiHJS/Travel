@@ -29,7 +29,7 @@ export default {
 @import '~_style/config.styl';
   .header
     position relative
-    line-height .86rem
+    line-height $headerHeight
     padding-top .10rem
     padding-bottom .10rem
     background-color $bgColor
