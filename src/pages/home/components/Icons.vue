@@ -6,7 +6,7 @@
         <p class="icon-desc">{{ item.desc }}</p>
       </div>
     </swiper-slide>
-    <div class="swiper-pagination"  slot="pagination"></div>
+    <div v-show="showPagination" class="swiper-pagination"  slot="pagination"></div>
   </swiper>
 </template>
 
@@ -21,7 +21,8 @@ export default {
       swiperOption: {
         pagination: '.swiper-pagination',
         autoplay: false
-      }
+      },
+      showPagination: false
     }
   },
   computed: {
@@ -35,6 +36,11 @@ export default {
         pages[page].push(item)
       })
       return pages
+    }
+  },
+  updated () {
+    if (this.list.length > 8) {
+      this.showPagination = true
     }
   }
 }
