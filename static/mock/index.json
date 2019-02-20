@@ -1,0 +1,112 @@
+{
+    "ret": true,
+    "data": {
+      "city": "湖州",
+      "swiperList": [{
+          "id": "0001",
+          "imgUrl": "http://img1.qunarzz.com/piao/fusion/1801/1a/94428c6dea109402.jpg_640x200_2cf590d8.jpg"
+        },{
+          "id": "0002",
+          "imgUrl": "http://img1.qunarzz.com/piao/fusion/1802/42/7c92b9a381e46402.jpg_640x200_1cdce2a4.jpg"
+        },{
+          "id": "0003",
+          "imgUrl": "http://img1.qunarzz.com/piao/fusion/1802/51/e78f936a5b404102.jpg_640x200_c14f0b3a.jpg"
+        },{
+          "id": "0004",
+          "imgUrl": "http://img1.qunarzz.com/piao/fusion/1712/91/a275569091681d02.jpg_640x200_0519ccb9.jpg"
+        }],
+      "iconList": [{
+          "id": "0001",
+          "url": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+          "desc": "景点门票"
+        }, {
+          "id": "0002",
+          "url": "http://img1.qunarzz.com/piao/fusion/1803/bd/9f7b9b2b60c1502.png",
+          "desc": "春节出游"
+        }, {
+          "id": "0003",
+          "url": "http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png",
+          "desc": "泡温泉"
+        }, {
+          "id": "0004",
+          "url": "http://img1.qunarzz.com/piao/fusion/1803/47/c2b659e048b11602.png",
+          "desc": "主题乐园"
+        }, {
+          "id": "0005",
+          "url": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
+          "desc": "湖州必游"
+        }, {
+          "id": "0006",
+          "url": "http://img1.qunarzz.com/piao/fusion/1803/b1/528a9e80403b8c02.png",
+          "desc": "Kitty乐园"
+        }, {
+          "id": "0007",
+          "url": "http://img1.qunarzz.com/piao/fusion/1803/97/02f5043b51b2102.png",
+          "desc": "莫干山"
+        }, {
+          "id": "0008",
+          "url": "http://img1.qunarzz.com/piao/fusion/1803/67/9a1678221b8e0e02.png",
+          "desc": "南浔古镇"
+        }, {
+          "id": "0009",
+          "url": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
+          "desc": "湖州影视城"
+        }, {
+          "id": "0010",
+          "url": "http://img1.qunarzz.com/piao/fusion/1803/96/c70f1e85ae4a4f02.png",
+          "desc": "自然风光"
+        }],
+        "recommentList": [{
+          "id": "0001",
+          "imgUrl": "http://img1.qunarzz.com/sight/p0/1809/75/756c6ed69c72ec41a3.img.jpg_200x200_3f15e7da.jpg",
+          "title": "南浔古镇",
+          "desc": "体会江南水乡之风韵"
+        }, {
+          "id": "0002",
+          "imgUrl": "http://img1.qunarzz.com/sight/p0/201403/10/95ff336c53ec8958732cbf418954b766.jpg_200x200_8e5d2859.jpg",
+          "title": "金钉子远古世界",
+          "desc": "地质年代中3个断代“金钉子”之一"
+        }, {
+          "id": "0003",
+          "imgUrl": "http://img1.qunarzz.com/sight/p0/1606/ec/ec2aae4d151636c3b4.img.jpg_200x200_5799e1fb.jpg",
+          "title": "杭州Hello Kitty乐园",
+          "desc": ""
+        }, {
+          "id": "0004",
+          "imgUrl": "http://img1.qunarzz.com/sight/p0/1502/bd/bd00da80780a2cc2.water.jpg_200x200_35efa460.jpg",
+          "title": "安吉江南天池温泉",
+          "desc": "这里特别受欢迎哟(๑‾ ꇴ ‾๑)"
+        }, {
+          "id": "0005",
+          "imgUrl": "http://img1.qunarzz.com/sight/p0/1603/a3/a3bb04b457cc902f90.water.jpg_200x200_b2e4102f.jpg",
+          "title": "江南天池旅游区",
+          "desc": "这里最近很火哦，好多人都在点评它呢！"
+        }],
+      "weekendList": [{
+          "id": "0001",
+          "imgUrl": "http://img1.qunarzz.com/sight/source/1811/52/b6776b49d27025.jpg_r_640x214_35ae205c.jpg",
+          "title": "美丽普陀山",
+          "desc": "人间仙境杭州，佛教圣地普陀山等你来玩！在这里静心接收佛家的洗礼，用心感受佛文化"
+        }, {
+          "id": "0002",
+          "imgUrl": "http://img1.qunarzz.com/sight/source/1509/21/6fef209545ff14.jpg_r_640x214_4cf7cd14.jpg",
+          "title": "这里的温泉好棒",
+          "desc": "湖州的温泉总是夹杂着淡淡的香甜"
+        }, {
+          "id": "0003",
+          "imgUrl": "http://img1.qunarzz.com/sight/source/1510/c1/afe3ab32b3bc23.jpg_r_640x214_beb61760.jpg",
+          "title": "精致暖汤",
+          "desc": "天然高品质温泉，这是冬天秀美容颜首选之地，让你疲惫的身影在这里消失的无影无踪"
+        }, {
+          "id": "0004",
+          "imgUrl": "http://img1.qunarzz.com/sight/source/1509/2f/161295e0b5b915.jpg_r_640x214_e2857d1b.jpg",
+          "title": "湖州必游",
+          "desc": "这里是江南古城，这里是鱼米之乡"
+        }, {
+          "id": "0005",
+          "imgUrl": "http://img1.qunarzz.com/sight/source/1811/99/20ec55b6c6f7f8.jpg_r_640x214_559590a6.jpg",
+          "title": "探寻湖州文化古迹",
+          "desc": "品湖州历史之韵"
+        }]
+    }
+  }
