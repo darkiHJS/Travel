@@ -5,7 +5,7 @@
         <div class="title border-topbottom">当前城市</div>
         <div class="button-list">
           <div class="button-wrapper">
-            <div class="button">湖州</div>
+            <div class="button">{{ this.currentCity }}</div>
           </div>
         </div>
       </div>
@@ -15,7 +15,9 @@
           <div class="button-wrapper"
             v-for="item of hotCities"
             :key="item.id">
-            <div class="button">{{ item.name }}</div>
+            <div class="button"
+              @click="handleCityClick(item.name)"
+            >{{ item.name }}</div>
           </div>
         </div>
       </div>
@@ -28,7 +30,8 @@
         <div class="item-list">
           <div class="item border-bottom"
             v-for="innerItem of item"
-            :key="innerItem.id">
+            :key="innerItem.id"
+            @click="handleCityClick(innerItem.name)">
               {{ innerItem.name }}
           </div>
         </div>
@@ -39,6 +42,7 @@
 
 <script>
 import Bscroll from 'better-scroll'
+import { mapState, mapMutations } from 'vuex'
 
 export default {
   name: 'CityList',
@@ -47,8 +51,17 @@ export default {
     hotCities: Array,
     letter: String
   },
-  mounted () {
-    this.scroll = new Bscroll(this.$refs.wrapper)
+  methods: {
+    handleCityClick (city) {
+      this.changeCity(city)
+      this.$router.push('/')
+    },
+    ...mapMutations(['changeCity'])
+  },
+  computed: {
+    ...mapState({
+      currentCity: 'city'
+    })
   },
   watch: {
     letter () {
@@ -56,8 +69,10 @@ export default {
         let element = this.$refs[this.letter][0]
         this.scroll.scrollToElement(element)
       }
-      console.log(this.letter)
     }
+  },
+  mounted () {
+    this.scroll = new Bscroll(this.$refs.wrapper)
   }
 }
 </script>
@@ -85,11 +100,13 @@ export default {
     .button-list
       display flex
       flex-wrap wrap
-      padding .1rem .3rem .1rem .1rem
+      padding .1rem .5rem .1rem .1rem
       .button-wrapper
         width 33.33%
         .button
           margin .1rem
+          height .4rem
+          line-height .4rem
           text-align center
           border .02rem solid #ccc
     .item-list
