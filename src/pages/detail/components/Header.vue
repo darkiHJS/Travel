@@ -44,6 +44,10 @@ export default {
   },
   activated () {
     window.addEventListener('scroll', this.handleScroll)
+  },
+  deactivated () {
+    window.removeEventListener('scroll', this.handleScroll)
+    // 全局事件一定要解绑
   }
 }
 </script>
