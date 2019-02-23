@@ -2,7 +2,9 @@
   <div>
     <detail-banner />
     <detail-header />
-    <detail-list />
+    <div class="content">
+      <detail-list />
+    </div>
   </div>
 </template>
 
@@ -17,6 +19,19 @@ export default {
     DetailBanner,
     DetailHeader,
     DetailList
+  },
+  data () {
+    return {
+      list: [{
+        title: '成人票'
+      }, {
+        title: '学生票'
+      }, {
+        title: '儿童票'
+      }, {
+        title: '特惠票'
+      }]
+    }
   }
 }
 </script>

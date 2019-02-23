@@ -31,7 +31,7 @@
           <div class="item border-bottom"
             v-for="innerItem of item"
             :key="innerItem.id"
-            @click:native="handleCityClick(innerItem.name)">
+            @click="handleCityClick(innerItem.name)">
               {{ innerItem.name }}
           </div>
         </div>
@@ -53,7 +53,6 @@ export default {
   },
   methods: {
     handleCityClick (city) {
-      console.log(city)
       this.changeCity(city)
       this.$router.push('/')
     },
