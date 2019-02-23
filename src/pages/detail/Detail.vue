@@ -2,19 +2,21 @@
   <div>
     <detail-banner />
     <detail-header />
-    <div class="content"></div>
+    <detail-list />
   </div>
 </template>
 
 <script>
 import DetailBanner from './components/Banner.vue'
 import DetailHeader from './components/Header.vue'
+import DetailList from './components/List.vue'
 
 export default {
   name: 'Detail',
   components: {
     DetailBanner,
-    DetailHeader
+    DetailHeader,
+    DetailList
   }
 }
 </script>
