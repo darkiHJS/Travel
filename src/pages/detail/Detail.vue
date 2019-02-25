@@ -3,7 +3,7 @@
     <detail-banner />
     <detail-header />
     <div class="content">
-      <detail-list />
+      <detail-list :list="list"/>
     </div>
   </div>
 </template>
@@ -23,7 +23,12 @@ export default {
   data () {
     return {
       list: [{
-        title: '成人票'
+        title: '成人票',
+        children: [{
+          title: '成人三馆联票'
+        }, {
+          title: '成人五馆联票'
+        }]
       }, {
         title: '学生票'
       }, {

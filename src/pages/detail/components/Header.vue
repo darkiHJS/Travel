@@ -56,6 +56,7 @@ export default {
   @import '~_style/config.styl';
   .header-fixed
     position fixed
+    z-index 2
     top 0
     left 0
     right 0
