@@ -6,6 +6,7 @@ import store from '@/store'
 import router from './router'
 import fastClick from 'fastclick'
 import VueAuesomeSwiper from 'vue-awesome-swiper'
+import 'babel-polyfill' // 解决低版本android白屏问题
 
 import '_style/reset.css'// 重置样式
 import '_style/border.css'// 1px边框解决方案
