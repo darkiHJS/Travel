@@ -21,5 +21,9 @@ export default new Router({
       name: 'Detail',
       component: Detail
     }
-  ]
+  ],
+  scrollBehavior (to, from, savedPosition) {
+    return { x: 0, y: 0 }
+    // 页面切换时 回到原点 只对has模式起效
+  }
 })
